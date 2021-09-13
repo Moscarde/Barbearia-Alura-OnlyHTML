@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Barbearia Alura</title>
+</head>
+<body bgcolor="#595959" style="margin: 0;">
+
+
+
+ <table cols=2 width=100% border=1>
+        <tr>            
+            <th width=7% valign="top" >
+                <center><img width="70px" src="pole.gif"/></center>
+                <table cols=1 width=100% border=2 bgcolor=#FFFFFF>
+                    <tr>    <th ><a href="index.html">HOME</a></th>    </tr>
+                    <tr>    <th ><a href="produtos.html">PRODUTOS</a></th> </tr>
+                    <tr>    <th ><a href="contato.html">CONTATO</a></th></tr>
+                </table>
+            </th>
+
+
+
+
+            <!-- conteudo abaixo -->
+            <th width=93% align="left">
+                <center><marquee behavior="alternate" direction=right scrolldalay=60 width=600px bgcolor=#fdfdfd border=2><font size=100px color=black>BARBEARIA ALURA</font></marquee></center><br>
+                <form>
+                    <label for="nomesobrenome">Nome e Sobrenome</label><br>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+                    <br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                    <br>
+
+                    <label for="telefone">Telefone</label><br>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                    <br>
+
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                    <br>
+
+                    <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                        
+    
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        
+    
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                        
+    
+                    </fieldset>
+                    <fieldset>
+                        <legend>Qual horário prefere ser atendido?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </fieldset>
+                   
+    
+                    <label for="checkbox" class="checkbox"><input type="checkbox" id="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar Formulário" class="enviar">
+                </form>
+    
+                <table border=1>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+            </th>
+            
+        </tr>
+
+    </table>
+    
+</body>
+</html>
